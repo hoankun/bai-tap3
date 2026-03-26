@@ -1,0 +1,183 @@
+/* Header Styles - Consistent across all pages */
+.header {
+    background-color: #0B45D7;
+    width: 100%;
+    min-height: 187px;
+    position: relative;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 27px 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F6F3F3;
+    border: 1px solid #F6F3F3;
+    border-radius: 816px;
+    width: 700px;
+    height: 55px;
+    padding: 0 36px 0 26px;
+    margin: 0 30px;
+    flex-shrink: 0;
+}
+
+.search-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.search-icon {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.cart-icon {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart-count {
+    position: absolute;
+    top: 16px;
+    left: 21px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF0404;
+    width: 18px;
+    height: 24px;
+    text-align: center;
+}
+
+.account-section {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.account-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+
+.account-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.account-sub {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.contact-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.news-section {
+    display: flex;
+    align-items: center;
+}
+
+.news-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+    padding: 0 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-item {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+.nav-item:hover {
+    opacity: 0.8;
+}
+
+.filter-button {
+    background-color: #0B45D7;
+    border: none;
+    padding: 3px 16px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.filter-button span {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 50px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng - KunShoes.vn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <!-- Logo -->
+            <a href="index.html" class="logo">KunShoes.vn</a>
+            
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <span class="search-text">Tìm kiếm sản phẩm...</span>
+                <div class="search-icon">
+                    <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.3333 28.9167C23.2567 28.9167 28.9167 23.2567 28.9167 16.3333C28.9167 9.41 23.2567 3.75 16.3333 3.75C9.41 3.75 3.75 9.41 3.75 16.3333C3.75 23.2567 9.41 28.9167 16.3333 28.9167Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M33.25 33.25L25.75 25.75" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+            
+            <!-- Header Actions -->
+            <div class="header-actions">
+                <!-- Cart Icon -->
+                <a href="cart.html" class="cart-icon">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="30" cy="30.98" rx="28.27" ry="28.27" fill="#2F88FF"/>
+                        <path d="M17.88 44.75H42.87C43.38 44.75 43.84 44.42 44.05 43.94L49.13 32.31C49.21 32.12 49.25 31.92 49.25 31.72V26.25C49.25 25.84 48.91 25.5 48.5 25.5H14.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.88 44.75L14.5 25.5" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="22" cy="50" r="3" fill="white"/>
+                        <circle cx="42" cy="50" r="3" fill="white"/>
+                    </svg>
+                    <span class="cart-count">1</span>
+                </a>
+                
+                <!-- Account Section -->
+                <div class="account-section">
+                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="30" cy="30" r="28" fill="#D9D9D9"/>
+                        <circle cx="30" cy="25" r="10" stroke="white" stroke-width="2"/>
+                        <path d="M15 50C15 41.72 21.72 35 30 35C38.28 35 45 41.72 45 50" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <div class="account-text">
+                        <span class="account-label">Tài khoản</span>
+                        <span class="account-sub">Đăng nhập / Đăng ký</span>
+                    </div>
+                </div>
+                
+                <!-- Contact Section -->
+                <div class="contact-section">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="12.5" width="40" height="25" rx="2" stroke="white" stroke-width="2"/>
+                        <path d="M5 15L25 28.5L45 15" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span class="contact-text">Liên hệ</span>
+                </div>
+                
+                <!-- News Section -->
+                <div class="news-section">
+                    <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 15H40M10 25H40M10 35H30" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                    <span class="news-text">Bảng tin</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Navigation -->
+        <nav class="navigation">
+            <a href="#" class="nav-item">GIỚI THIỆU</a>
+            <a href="#" class="nav-item">NIKE</a>
+            <a href="#" class="nav-item">ADIDAS</a>
+            <a href="#" class="nav-item">PUMA</a>
+            <a href="#" class="nav-item">THỂ THAO</a>
+            <a href="#" class="nav-item">OTHER BRAND</a>
+            <a href="#" class="nav-item">SALE</a>
+            <a href="#" class="nav-item">Filter</a>
+        </nav>
+    </header>
+    
+    <!-- Back Button -->
+    <a href="index.html" class="back-button">← Quay lại trang chủ</a>
+    
+    <!-- Cart Content -->
+    <main class="cart-content">
+        <h1 class="cart-title">Giỏ Hàng Của Bạn</h1>
+        
+        <div class="cart-container">
+            <!-- Cart Items -->
+            <section class="cart-items">
+                <h2 class="section-title">Sản phẩm trong giỏ hàng</h2>
+                
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src="images/product-nike.png" alt="Nike Dunk Low Retro">
+                    </div>
+                    <div class="item-details">
+                        <span class="item-brand">Nike</span>
+                        <h3 class="item-name">Giày Nike Dunk Low Retro Nam - Trắng Xanh</h3>
+                        <div class="item-options">
+                            <span class="item-size">Kích thước: 40</span>
+                            <span class="item-quantity">Số lượng: 1</span>
+                        </div>
+                        <span class="item-price">1.790.000đ</span>
+                    </div>
+                    <div class="item-actions">
+                        <button class="remove-btn" onclick="removeItem(this)">Xóa</button>
+                    </div>
+                </div>
+                
+                <div class="empty-cart" style="display: none;">
+                    <p>Giỏ hàng của bạn đang trống</p>
+                    <a href="index.html" class="continue-shopping">Tiếp tục mua sắm</a>
+                </div>
+            </section>
+            
+            <!-- Cart Summary -->
+            <section class="cart-summary">
+                <h2 class="section-title">Tổng giỏ hàng</h2>
+                
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Tạm tính:</span>
+                        <span class="subtotal">1.790.000đ</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Phí vận chuyển:</span>
+                        <span>30.000đ</span>
+                    </div>
+                    <div class="summary-row total">
+                        <span>Tổng cộng:</span>
+                        <span class="total-amount">1.820.000đ</span>
+                    </div>
+                </div>
+                
+                <a href="checkout.html" class="checkout-btn">Tiến hành thanh toán</a>
+                
+                <a href="index.html" class="continue-shopping-btn">Tiếp tục mua sắm</a>
+            </section>
+        </div>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <img src="images/image2.png" alt="Footer">
+    </footer>
+    
+    <script>
+        function removeItem(button) {
+            const cartItem = button.closest('.cart-item');
+            cartItem.remove();
+            
+            // Check if cart is empty
+            const remainingItems = document.querySelectorAll('.cart-item');
+            if (remainingItems.length === 0) {
+                document.querySelector('.empty-cart').style.display = 'block';
+                document.querySelector('.cart-summary').style.display = 'none';
+            }
+            
+            // Update cart count
+            updateCartCount();
+        }
+        
+        function updateCartCount() {
+            const cartCount = document.querySelector('.cart-count');
+            const itemCount = document.querySelectorAll('.cart-item').length;
+            cartCount.textContent = itemCount;
+        }
+        
+        // Initialize cart count
+        updateCartCount();
+    </script>
+</body>
+</html>
